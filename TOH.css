@@ -1,0 +1,38 @@
+body{
+		background:
+		linear-gradient(
+		rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+		  ),
+		  url(lus-wp.png);
+	}
+	
+	body{
+	
+background-size:cover;
+-moz-background-size:cover;
+-webkit-background-size:cover;
+}	 
+
+button {
+		background-color:  #665FBF;
+		border: none;
+		color: Black;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		background.color: #665FBF;
+		color: #444;
+		cursor: pointer;
+		padding: 18px;
+		width: 20%;
+		border: none;
+		text-align: center;
+		outline: none;
+		font-size 15px;
+		.active, .button:hover {
+		background-color: #ccc;
+		}
+			}
