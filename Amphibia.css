@@ -110,8 +110,8 @@ button {
 	display:flex;
 }
 .a{
-	width: 16%;
-	height: 32%;
+	width: 190;
+	height: 190;
 	background-color: #262626;
 	float: center;
 	transition: transform .2s;
