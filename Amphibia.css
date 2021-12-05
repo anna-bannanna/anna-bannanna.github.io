@@ -109,16 +109,16 @@ button {
 	width: 100%;
 	display:flex;
 }
-.a, .b{
-	width: 190px;
-	height: 190px;
+.a{
+	width: 16%;
+	height: 32%;
 	background-color: #262626;
 	float: center;
 	transition: transform .2s;
 	border-radius: 25px;
 	padding: 10px;
 }
-	.a:hover, .b:hover { 
+	.a:hover { 
   transform: scale(1.2);
   background-color: #4d4d4d;
 	}
@@ -127,9 +127,7 @@ button {
 	margin-left: 20px;
 	margin-bottom: 20px;
 }
-.b {
-	float: right;
-}
+
 img {
 	float: center;
 	border-radius: 25px;
