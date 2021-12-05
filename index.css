@@ -29,9 +29,9 @@
           rgba(0, 0, 0, 0.5)
 		  ),
 		  url(moviefree.jpg);
-background-size:cover;
--moz-background-size:cover;
--webkit-background-size:cover;
+		background-size:cover;
+		-moz-background-size:cover;
+		-webkit-background-size:cover;
 	}
 	
 	#movies {
@@ -41,10 +41,9 @@ background-size:cover;
 	
 	.moive {
 		float: left;
-		background-color: black;
 		transition: transform .2s;
 		margin-left: 20px;
-	margin-bottom: 20px;
+		margin-bottom: 20px;
 	}
 	
 
