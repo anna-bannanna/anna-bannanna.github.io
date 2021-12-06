@@ -4,7 +4,7 @@ body{
 		rgba(0, 0, 0, 0.3), 
           rgba(0, 0, 0, 0.3)
 		  ),
-		  url(lus-wp.png);
+		  url(house.png);
 	}
 	
 	body{
@@ -14,7 +14,7 @@ background-size:cover;
 -webkit-background-size:cover;
 }	 
 
-button {
+/*button {
 		background-color:  #665FBF;
 		border: none;
 		color: Black;
@@ -35,4 +35,68 @@ button {
 		.active, .button:hover {
 		background-color: #ccc;
 		}
-			}
+}*/
+
+p {
+	color: #665FBF;
+	font-family: verdana;
+	-webkit-text-stroke: 1.5px #665FBF;
+}
+
+h2 {
+	font-family: verdana;
+	color: #665FBF;
+	-webkit-text-stroke: 1.5px black;
+}
+
+#1 {
+	width: 100%;
+	display:flex;
+}
+.a{
+	width: 190;
+	height: 190;
+	background-color: #262626;
+	float: center;
+	transition: transform .2s;
+	border-radius: 25px;
+	padding: 10px;
+}
+	.a:hover { 
+  transform: scale(1.2);
+  background-color: #4d4d4d;
+	}
+.a {
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+img {
+	float: center;
+	border-radius: 25px;
+}
+
+iframe {
+	border:none;
+	height: 580;
+	width: 1024;
+	allow: fullscreen;
+}
+
+button {
+		background-color: #665FBF;
+		border: 2px;
+		padding: 15px 32px;
+		transition: transform .2s;
+		border-radius: 25px;
+		padding: 10px;
+		text-stroke: #665FBF;
+		display: inline-block;
+		font-size: 16px;
+		margin: 10px;
+}
+
+	button:hover { 
+  transform: scale(1.2);
+  background-color: #4d4d4d;
