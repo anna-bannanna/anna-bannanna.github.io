@@ -49,6 +49,12 @@ h2 {
 	-webkit-text-stroke: 1.5px black;
 }
 
+h3 {
+	font-family: verdana;
+	color: #665FBF;
+	-webkit-text-stroke: 1.5px black;
+}
+
 #1 {
 	width: 100%;
 	display:flex;
