@@ -13,6 +13,10 @@ h3 {
 
     font-family: verdana; color: #13c797;
 }
+iframe {
+	border: none;
+}
+
 body{
 		background:
 		linear-gradient(
