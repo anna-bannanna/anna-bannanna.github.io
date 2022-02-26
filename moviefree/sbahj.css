@@ -1,0 +1,14 @@
+h1 {
+	color: orange;
+	font-family: Comic Sans MS;
+	
+}
+
+body{
+		background:
+		linear-gradient(
+		rgba(6, 6, 189, 1), 
+          rgba(6, 6, 189, 1)
+		  ),
+		  url(.com.png);
+}
