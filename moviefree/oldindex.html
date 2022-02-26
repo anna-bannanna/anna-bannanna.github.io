@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Moviefree</title>
+<link rel="icon" href="moviefree_icon.png">
+<style>
+	body{
+		background:
+		linear-gradient(
+		rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+		  ),
+		  url(moviefree.jpg);
+	}
+	</style>
+	<h1><center><h1 style="font-family:sans">Welcome To Moviefree.com!</h1></h1></center>
+	<center><h3 style="font-family:verdana">The best place to watch movies free!</h3></center>
+	<br>
+	<center><button type="button" class="collapsible">Movies</button>
+	<div class="content">
+		<a href="amphibia.html">Amphibia</p>
+		<a href="toh.html">The Owl House</p></a>
+	</div>
+	</center>
+<style>
+	.collapsible {
+		background.color: #e4ffdf;
+		color: #444;
+		cursor: pointer;
+		padding: 18px;
+		width: 20%;
+		border: none;
+		text-align: center;
+		outline: none;
+		font-size 15px;
+	}
+	
+	.active, .collapsible:hover {
+	background-color: #ccc;
+	}
+	
+	.content {
+	width: 17%;
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+	}
+</style>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+<br>
+<center><h4 style="font-family:verdana">Promotional Video</h4></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/VfON3P8EF6o" title="Moviefree.com official video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+</body>
+</html>
+	
