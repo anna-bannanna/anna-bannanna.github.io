@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Amphibia Season 1</title>
+<link rel="icon" href="susanne.png">
+<style>
+	body{
+		background:
+		linear-gradient(
+		rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+		  ),
+		  url(susanne-wp.png);
+	}
+	body{
+background-size:cover;
+-moz-background-size:cover;
+-webkit-background-size:cover;
+}	 
+	</style>
+<center><button type="button" class="collapsible">Episodes</button>
+	<div class="content">
+		<a href="S1E1.html">Episode 1: Anne or Beast</p>
+		<a href="S2.html">Season 2</p>
+		<a href="S3.html">Season 3</p>
+		<a href="S3.html">Season 3</p>
+		<a href="S3.html">Season 3</p>
+		<a href="S3.html">Season 3</p>
+		<a href="S3.html">Season 3</p>
+		<a href="S3.html">Season 3</p>
+		<a href="S3.html">Season 3</p>
+		<a href="S3.html">Season 3</p>
+		<a href="S3.html">Season 3</p>
+		<a href="S3.html">Season 3</p>
+	
+	</div>
+	</center>
+<style>
+	.collapsible {
+		background.color: #e4ffdf;
+		color: #444;
+		cursor: pointer;
+		padding: 18px;
+		width: 20%;
+		border: none;
+		text-align: center;
+		outline: none;
+		font-size 15px;
+	}
+	
+	.active, .collapsible:hover {
+	background-color: #ccc;
+	}
+	
+	.content {
+	width: 17%;
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+	}
+</style>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
